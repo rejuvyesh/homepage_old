@@ -1,0 +1,42 @@
+body { font-family: Helvetica, Arial; font-size: 10px }
+.name {font-family: 'Jacques Francois', serif; font-size:3em; padding-top: 12%; color:#E8E8E8; text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;}
+select { font-family: Tahoma,Helvetica,Arial; font-size: 11px; }
+a { text-decoration: none; }
+.textbox { font-family: Tahoma,Courier,Courier New; font-size: 10px; padding: 2px; border: dotted 1px #C0C0C0 }
+.lockbox { font-family: Tahoma,Courier,Courier New; font-size: 10px; padding: 2px; background-color: #E7E7E7; border: solid 1px #C0C0C0 }
+.small { font-family: Tahoma,Helvetica,Arial; font-size: 11px; text-decoration: none }
+.medium { font-family: Helvetica,Arial; font-size: 14px; letter-spacing: -0.01em; text-decoration: none; }
+.large { font-family: Helvetica,Arial; font-size: 30px; letter-spacing: -0.01em; }
+
+.header { font-family: Tahoma,Helvetica,Arial; font-size: 11px; FONT-WEIGHT: bold; text-decoration: none; color: #FFFFFF; background-color: #000000; }
+.navigation { font-family: Tahoma,Helvetica,Arial; font-size: 11px; color: #FFFFFF; }
+.caption { font-family: Verdana; font-size: 10px; color: #808080; text-decoration: none }
+.caption a:hover { font-family: Verdana; font-size: 10px; color: #808080; text-decoration: underline }
+
+.legible { line-height: 32px; }
+
+.hyperlink2 a:link {font-family: 'Lancelot', Tahoma, cursive; color: #D0D0D0; font-size: 1.4em;background: #666;
+text-shadow: 0px 1px 1px #000; } /*Stand out from background*/
+.hyperlink2 a:hover {font-family: 'Lancelot', Tahoma, cursive; color: #fff;background: #000; text-shadow: 1px 1px 6px #fff;} /*Glow on Hover*/
+.bullet {padding-top: 2%; }
+
+.link1 { text-decoration: none; color: #FFFFFF; vlink: #FFFFFF }
+.link2 { text-decoration: none; color: #FFFFFF; vlink: #FFFFFF }
+.link3 { text-decoration: none; color: #000000; vlink: #000000 }
+.link4 { text-decoration: none; color: #808080; vlink: #808080 }
+.white { text-decoration: none; color: #FFFFFF; vlink: #FFFFFF; }
+.gray { text-decoration: none; color: #404040; vlink: #404040; }
+.black { text-decoration: none; color: #000000; vlink: #000000; }
+
+.error { font-family: Helvetica,Arial; font-size: 12px; color: #FF0000 }
+
+.dropShadow {
+    position: relative;
+    padding: 0px;
+    margin: 4px;
+    background: #FFFFFF;
+    -webkit-box-shadow:0 2px 8px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 2px 8px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	    box-shadow:0 2px 8px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.dropShadow:before, .dropShadow:after { content:""; position:absolute; z-index:-2; }
