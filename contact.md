@@ -1,12 +1,17 @@
 # CONTACT
 
-### Jayesh Kumar Gupta
+* **Reachable at:** 
 
-Undergraduate Student\
-Department of Electrical Engineering\
-IIT Kanpur\
-Kanpur, 208016, India
+    Jayesh Kumar Gupta\
 
-Mail:jayeshkg@iitk.ac.in
+    C-204/ Hall 5\
 
-In person: C-204/ Hall 5
+    IIT Kanpur\
+
+    Kanpur, 208016, India\
+
+* **Mobile**: (+91) 9005434081\
+
+* **E-mail**: jayeshkg@iitk.ac.in;
+            a2z.jayesh@gmail.com
+
