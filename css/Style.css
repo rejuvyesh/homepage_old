@@ -1,5 +1,6 @@
 body { font-family: Helvetica, Arial; font-size: 10px }
-.name {font-family: 'Jacques Francois', serif; font-size:3em; padding-top: 12%; color:#E8E8E8; text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;}
+h1 { font-family: 'Cardo', serif;font-size:2.5em; text-shadow: 0px 2px 1px #484848; color:#909090}
+.name { font-family: 'Cardo', serif;font-variant: small-caps; font-size:6em; padding-top: 12%; color:#E8E8E8; text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;}
 select { font-family: Tahoma,Helvetica,Arial; font-size: 11px; }
 a { text-decoration: none; }
 .textbox { font-family: Tahoma,Courier,Courier New; font-size: 10px; padding: 2px; border: dotted 1px #C0C0C0 }
@@ -15,12 +16,33 @@ a { text-decoration: none; }
 
 .legible { line-height: 32px; }
 
-.hyperlink2 a:link {font-family: 'Lancelot', Tahoma, cursive; color: #D0D0D0; font-size: 1.4em;background: #666;
-text-shadow: 0px 1px 1px #000; } /*Stand out from background*/
-.hyperlink2 a:hover {font-family: 'Lancelot', Tahoma, cursive; color: #fff;background: #000; text-shadow: 1px 1px 6px #fff;} /*Glow on Hover*/
-.hyperlink2 a:visited {font-family: 'Lancelot', Tahoma, cursive; color: #ccc; font-size: 1.4em;background: #666;
-text-shadow: 0px 1px 1px #000; }
+.hyperlink2 a:link { font-family: 'Cardo', serif; color: #D0D0D0; font-size: 1.4em;background: #666;
+                    text-shadow: 0px 1px 1px #000; } /*Stand out from background*/
+.hyperlink2 a:hover {font-family: 'Cardo', serif; color: #fff;background: #000; text-shadow: 1px 1px 6px #fff;} /*Glow on Hover*/
+.hyperlink2 a:visited {font-family: 'Cardo', serif; color: #ccc; font-size: 1.4em;background: #666;
+                       text-shadow: 0px 1px 1px #000; }
 .bullet {padding-top: 2%; }
+
+.navigation-bar {
+    font-family: 'Cardo', serif; font-size: 1.4em; color: #D0D0D0;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation-bar li {
+    display: inline;
+    float: right;
+}
+.navigation-bar li a {
+    width: 15em;
+    padding: 0.5em 1em;
+    color: #D0D0D0;
+    text-shadow: 0px 1px 1px #000;
+}
+.navigation-bar li a:hover {
+    color: #fff; text-shadow: 1px 1px 6px #fff;
+}
 
 .link1 { text-decoration: none; color: #FFFFFF; vlink: #FFFFFF }
 .link2 { text-decoration: none; color: #FFFFFF; vlink: #FFFFFF }
@@ -29,8 +51,18 @@ text-shadow: 0px 1px 1px #000; }
 .white { text-decoration: none; color: #FFFFFF; vlink: #FFFFFF; }
 .gray { text-decoration: none; color: #404040; vlink: #404040; }
 .black { text-decoration: none; color: #000000; vlink: #000000; }
+.steelblue { text-decoration: none; color: #708090; }
 
 .error { font-family: Helvetica,Arial; font-size: 12px; color: #FF0000 }
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
 
 .dropShadow {
     position: relative;
@@ -38,7 +70,7 @@ text-shadow: 0px 1px 1px #000; }
     margin: 4px;
     background: #FFFFFF;
     -webkit-box-shadow:0 2px 8px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 2px 8px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	    box-shadow:0 2px 8px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 2px 8px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 2px 8px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 .dropShadow:before, .dropShadow:after { content:""; position:absolute; z-index:-2; }
